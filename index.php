@@ -1,6 +1,7 @@
-<?php
-$a = 9;
-$b = 4;
-$c = $a + $b;
-echo "a + b =".$c."\n";
-?>
+<form action=enter.php>
+Логин: <input name=login type=text><br>
+Пароль: <input name=pass type=text><br>
+<input type=submit value="Войти">
+</form>
+
+
